@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation  -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="lotus-flower-g23773db39_1280.png" class="img-responsive"
+                    width="50px" height="50px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Image slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="carousel imgs/humberto-chavez-InrNz281-S8-unsplash.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2"> Bootstrap</h1>
+                    <h3>Complete Website Layout</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="carousel imgs/hanson-lu-s0yGfJn36Xg-unsplash.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="carousel imgs/v2osk-eKTUtA74uN0-unsplash.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="ckturistando-HTCQCvwV9XY-unsplash.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="ethan-hoover-zyU2gQ9mWLM-unsplash.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="xavi-cabrera-frbCzHFLwvU-unsplash.jpg" alt="Third slide">
+          </div>
+        </div> -->
+
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://placeimg.com/1080/500/animals" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>My Caption Title (1st Image)</h5>
+                        <p>The whole caption will only show up if the screen is at least medium size.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://placeimg.com/1080/500/arch" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://placeimg.com/1080/500/nature" alt="Third slide">
+                </div>
+            </div> -->
+
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://placeimg.com/1080/500/animals" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>My Caption Title (1st Image)</h5>
+                            <p>The whole caption will only show up if the screen is at least medium size.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://placeimg.com/1080/500/arch" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://placeimg.com/1080/500/nature" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> -->
+
+
+
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, voluptate non officia
+                    natus distinctio rerum! Officia dignissimos delectus deleniti dolorum, aut, a, dicta atque sapiente
+                    ratione minus recusandae dolor tenetur?</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="container-fluid pading">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Built with ease.</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorem veritatis
+                    voluptate sequi? Voluptatum officiis voluptas beatae voluptatem et dolorem laborum veritatis
+                    reprehenderit. Quae incidunt, et minus ad molestiae cum?</p>
+            </div>
+        </div>
+    </div>
+    <!-- three column section  -->
+
+    <div class="container-fluid padding">
+        <div class="row text-center paddding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-code"></i>
+                <h3>HTML5</h3>
+                <P>Built with latest verson of HTML,HTML5</P>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-bold"></i>
+                <h3>BOOTSTRAP</h3>
+                <P>Built with latest verson of B ootstrap,Bootstrap5</P>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+                <P>Built with latest verson of CSS,CSS3</P>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!-- two column section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>If you build it...</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, molestiae. Distinctio
+                    laboriosam dicta dolorum perferendis commodi? Asperiores culpa, cupiditate facilis quis voluptatibus
+                    tempore, sunt autem labore fugit qui iusto et?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, neque quod illo magnam iste vel error?
+                    Animi amet eos totam repudiandae ad culpa, molestias possimus? Facilis quae in dolores magnam.lore
+                </p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium illo expedita exercitationem
+                    quasi eveniet doloremque reprehenderit, cupiditate illum, iusto quo, ullam architecto suscipit
+                    voluptatibus. Quo temporibus nostrum repellat! Mollitia, ipsa?</p>
+                <br>
+                <a href="#"><button class="btn btn-primary">Learn More</button></a>
+            </div>
+            <div class="col-lg-6">
+                <img src="brooke-cagle-JBwcenOuRCg-unsplash.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <!-- Fixed image background -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+
+            </div>
+        </div>
+    </figure>
+
+    <!-- emoji section -->
+
+    <!-- <button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
+    <div id="emoji" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3"><div class="tenor-gif-embed " data-postid="17554614" data-share-method="host" data-aspect-ratio="1"
+                        data-width="100%"><a
+                            href="https://tenor.com/view/writing-hand-joypixels-human-hand-holding-a-pen-writing-handwriting-gif-17554614">Writing
+                            Hand Joypixels Sticker</a>from <a
+                            href="https://tenor.com/search/writing+hand-stickers">Writing Hand Stickers</a></div>
+                    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Meet the team  -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <div class="display-4">Meet the team</div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- cards  -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="brooke-cagle-JBwcenOuRCg-unsplash.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sint, ad similique
+                        error deserunt quo quas iste! Aut, blanditiis nam sed officiis ipsam dolorum aperiam, quae
+                        suscipit culpa natus eius.</p>
+                    <a href="#"><button class="btn btn-outline-secondary">See Profile</button></a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="brooke-cagle-JBwcenOuRCg-unsplash.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title"> Doe</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sint, ad similique
+                        error deserunt quo quas iste! Aut, blanditiis nam sed officiis ipsam dolorum aperiam, quae
+                        suscipit culpa natus eius.</p>
+                    <a href="#"><button class="btn btn-outline-secondary">See Profile</button></a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="brooke-cagle-JBwcenOuRCg-unsplash.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sint, ad similique
+                        error deserunt quo quas iste! Aut, blanditiis nam sed officiis ipsam dolorum aperiam, quae
+                        suscipit culpa natus eius.</p>
+                    <a href="#"><button class="btn btn-outline-secondary">See Profile</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- two column section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>Our philosophy</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, molestiae. Distinctio
+                    laboriosam dicta dolorum perferendis commodi? Asperiores culpa, cupiditate facilis quis voluptatibus
+                    tempore, sunt autem labore fugit qui iusto et?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, neque quod illo magnam iste vel error?
+                    Animi amet eos totam repudiandae ad culpa, molestias possimus? Facilis quae in dolores magnam.Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Accusantium illo expedita exercitationem
+                    quasi eveniet doloremque reprehenderit, cupiditate illum, iusto quo, ullam architecto suscipit
+                    voluptatibus. Quo temporibus nostrum repellat! Mollitia, ipsa?</p>
+                <br>
+            </div>
+            <div class="col-lg-6">
+                <img src="brooke-cagle-JBwcenOuRCg-unsplash.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- connect  -->
+
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="lotus-flower-g23773db39_1280.png" width="50px" height="50px" alt="">
+                    <hr class="light">
+                    <p>5555-5555-5555</p>
+                    <p>email@gmail.com</p>
+                    <p>street name</p>
+                    <p>city,state,number</p>
+                </div>
+
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday 9am - 5pm</p>
+                    <p>Monday 9am - 5pm</p>
+                    <p>Monday 9am - 5pm</p>
+                    <p>Monday 9am - 5pm</p>
+                    <p>Monday 9am - 5pm</p>
+                </div>
+
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Service Areas</h5>
+                    <hr class="light">
+                    <p>city,state,number</p>
+                    <p>city,state,number</p>
+                    <p>city,state,number</p>                  
+                    <p>city,state,number</p>
+                </div>
+
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; businesName.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
